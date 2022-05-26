@@ -1,0 +1,535 @@
+fileFormatVersion: 2
+guid: d80164ec50543f046a3d5bfb5656f624
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_9
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 567
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d59dce86b1964d41b93d25a18d5872f
+      internalID: -1743205875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_19
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 567
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604cbfe65fd2f3742ab0af330634c67e
+      internalID: 404701529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_30
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 567
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8553bf88708c304b84c9047fb76a458
+      internalID: -2142335654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_38
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 567
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d1547bc38a4adc49aaa691ba0448533
+      internalID: -1162665466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_45
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 567
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78b6573fdd4ef864f95a7515cac11902
+      internalID: 1385551665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_55
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 567
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d6fda582422204a927bc73644be559
+      internalID: 66430315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_66
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 567
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50397979bc18b854896a0c9dd9afef4c
+      internalID: 1139967695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_71
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 567
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2112f891e46d3b44995c9cd867f379b
+      internalID: 1215859873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_78
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 567
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 860d2c55f9b767c43bf06bda438b9160
+      internalID: -1672743220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_84
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 567
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6dfa68af2f418f44878f7e174666b52
+      internalID: -689906738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_88
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 567
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5cb262afc5264f4caf9b0e6f750d28b
+      internalID: 459844159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_90
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 567
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641450e388dd142408768460b088c111
+      internalID: 1943304573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_82: -80973363
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_26: 1356596615
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_131: -1767401230
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_0: -1776713319
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_75: 69582005
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_16: -1040490629
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_114: 1276920966
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_106: -789263724
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_134: 914462377
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_7: -845820730
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_115: -152651111
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_63: 1789362595
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_136: -16710113
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_55: 66430315
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_78: -1672743220
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_138: 648630536
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_52: 1572791826
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_142: -465020097
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_35: 1906517470
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_103: -1255632244
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_36: -380277187
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_58: 1927352806
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_88: 459844159
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_126: -1339683891
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_80: -1841235701
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_98: 121357430
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_148: -1651505281
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_99: -786619840
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_123: -1916186583
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_101: 114618402
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_128: -634110819
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_85: 336110322
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_37: -1339376319
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_33: -398396594
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_34: 521662511
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_76: 2134807783
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_137: 175908748
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_64: 309254219
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_15: -575901121
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_17: 1635101155
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_60: 382262383
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_30: -2142335654
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_56: -1928103356
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_66: 1139967695
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_79: 1250267661
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_28: 593306401
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_127: -1567365189
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_62: 1244744867
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_111: 1830497633
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_19: 404701529
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_119: -1070059062
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_23: -1393833073
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_8: 1755685789
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_120: 498048958
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_39: -779906338
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_21: 1848866076
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_91: 1844413085
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_50: -1465273695
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_133: 582418158
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_46: 2020060008
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_57: -252673157
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_44: 182526653
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_132: -232628640
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_48: 698688143
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_87: -126786197
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_69: -1211282523
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_105: -376260569
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_139: 566895973
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_51: 698216605
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_108: 1538630528
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_125: -837616536
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_95: 463737013
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_22: -964741726
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_77: -1431551381
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_104: 1210917063
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_117: -1342909138
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_29: 1891374665
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_25: -1793300790
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_38: -1162665466
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_72: -1857577835
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_61: 250064391
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_89: 871691241
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_70: -1901384904
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_59: -87766646
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_54: -224787615
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_47: -578658205
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_49: -458998361
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_53: -340878265
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_86: -1001565877
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_67: 1256854504
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_41: -178015100
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_71: 1215859873
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_5: 1514531719
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_94: -237635295
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_97: 421631317
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_122: 1914585070
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_96: 1983117607
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_112: 2037952916
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_121: -1255107966
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_135: -686196862
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_65: -237785211
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_118: -1543736504
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_6: -1940225327
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_145: 1054602874
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_9: -1743205875
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_110: -1252308286
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_10: -1432000118
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_113: 1945441350
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_24: -661937674
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_11: 2005891931
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_84: -689906738
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_4: -1062503938
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_93: 384792566
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_109: -1136782340
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_130: -509174139
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_73: -1880902554
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_31: -973035027
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_14: -205872574
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_83: -1832183113
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_18: 66637431
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_42: -615790486
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_13: 919033172
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_27: -1348398231
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_92: 1427109660
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_124: -1635118656
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_90: 1943304573
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_140: 902254944
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_147: 941648919
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_107: -417290921
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_129: 1879052554
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_116: 2008634115
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_40: -684565059
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_141: 235384994
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_146: 1413821884
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_1: 22220665
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_3: 809508174
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_74: -999647014
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_100: -1329196145
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_102: 1268724184
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_143: -1837796159
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_32: -797062196
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_45: 1385551665
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_12: 601424542
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_43: -851514410
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_68: 170629091
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_2: -916780264
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_144: -1929626276
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_20: -1327515968
+      Game Boy Advance - Dragon Ball Advanced Adventure - Goku copia_81: 1225492899
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
