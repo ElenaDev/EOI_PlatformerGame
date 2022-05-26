@@ -10,6 +10,10 @@ public class EnemyMovement : MonoBehaviour
     public float distanceToAttackPlayer;//La distancia a la que voy a atacar al player
     public float xFactor;//La distancia a la que se va a quedar el enemigo del player cuando vaya a atacarlo
 
+    [Header("Colliders Attack")]
+    public GameObject colliderAttackLeft;
+    public GameObject colliderAttackRight;
+
     Animator anim;
     Vector3 posToGo;//variable que siempre va a guardar la posición a la que se dirige el enemigo
     SpriteRenderer spriteRenderer;
@@ -109,4 +113,20 @@ public class EnemyMovement : MonoBehaviour
         animAttacking = false;
     }
     //
+
+    //Función que la vamos a usar como evento en la animación de ataque
+    public void EnableCollider()
+    {
+        //si estoy mirando a la izquierda
+        if (spriteRenderer.flipX) colliderAttackLeft.SetActive(true);
+        //si estoy mirando a la derecha
+        else if (!spriteRenderer.flipX) colliderAttackRight.SetActive(true);
+
+        Invoke("DisableCollider", 0.1f);
+    }
+    void DisableCollider()
+    {
+        colliderAttackRight.SetActive(false);
+        colliderAttackLeft.SetActive(false);
+    }
 }
