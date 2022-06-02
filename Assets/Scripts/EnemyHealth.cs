@@ -16,6 +16,11 @@ public class EnemyHealth : MonoBehaviour
     public bool death;
     public AnimationClip clipHit;//Clip de animación de daño
 
+    [Header("Dropping")]
+    public GameObject coin;
+    public GameObject heart;
+    public int maxObjectsDropping;
+
     Animator anim;
     float timer;
     EnemyMovement enemyMovement;
@@ -48,10 +53,6 @@ public class EnemyHealth : MonoBehaviour
         lifeUI.fillAmount = currentHealth / maxHealth;//Actualizamos la barra de vida del enemigo
         //La división entre la salud actual y la máxima va a dar siempre un valor igual o menor a 1
 
-        //Si no está reproduciendo la animación de ataque, le decimos que reproduzca la animación de daño
-        if(!enemyMovement.animAttacking)
-            anim.SetTrigger("Hit");
-
         textUI.gameObject.SetActive(true);
         textUI.transform.localPosition = Vector3.zero;
         textUI.text = "10";
@@ -60,12 +61,29 @@ public class EnemyHealth : MonoBehaviour
         Invoke("DesactivateTextUI", 0.3f);
 
         if (currentHealth <= 0) Death();
+        else if (!enemyMovement.animAttacking) anim.SetTrigger("Hit");
     }
     void Death()
     {
+        Dropping();
         death = true;
         anim.SetTrigger("Death");
         Destroy(gameObject, 2);
+    }
+    /// <summary>
+    /// Genera monedas y corazones aleatorios
+    /// HAY MENOS POSIBILIDADES QUE SALGAN CORAZONES QUE MONEDAS
+    /// </summary>
+    void Dropping()
+    {
+        int n = Random.Range(2, maxObjectsDropping);
+        for(int i=0; i <= n; i++)
+        {
+            //Por cada objeto que creamos hay un probabilidad menor del 10% de que sea un corazón
+            //new Quaternion() es decirle que no tiene rotación
+            if (Random.value < 0.1f) Instantiate(heart, transform.position, new Quaternion());
+            else Instantiate(coin, transform.position, new Quaternion());
+        }
     }
     void DesactivateTextUI()
     {

@@ -31,6 +31,14 @@ public class PlayerMovement : MonoBehaviour
     //Varibles para el movimiento
     Vector2 targetVelocity;//va a guardar la velocidad a la que quiero mover el personaje (tenemos aceleración)
     Vector2 dampVelocity;//aquí vamos a guardar la velocidad actual del personaje
+
+    PlayerHealth playerHealth;
+
+    private void Awake()
+    {
+        playerHealth = GetComponent<PlayerHealth>();
+    }
+
     void Start()
     {
         rb2D = GetComponent<Rigidbody2D>();
@@ -39,6 +47,11 @@ public class PlayerMovement : MonoBehaviour
     }
     void Update()
     {
+        if (playerHealth.death || playerHealth.damaged)
+        {
+            targetVelocity = Vector2.zero;
+            return;//me salgo del update
+        }
 
         if (!isAttacking)//si no estoy atacando
         {

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - AttackPlayer
   - AttackEnemy
+  - Coin
   layers:
   - Default
   - TransparentFX
@@ -14,8 +15,8 @@ TagManager:
   - Water
   - UI
   - Ground
-  - 
-  - 
+  - PickUpObjects
+  - Object
   - 
   - 
   - 
