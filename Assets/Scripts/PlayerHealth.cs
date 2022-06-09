@@ -56,7 +56,14 @@ public class PlayerHealth : MonoBehaviour
         anim.SetTrigger("Death");
         Destroy(gameObject,2);
     }
-
+    public void AddHeart()
+    {
+        //si la salud actual es igual a la salud máxima, me salgo de la función ya que no puedo añadir corazones
+        if (currentHealth >= maxHealth) return;
+        
+        currentHealth++;//sumamos 1 de vida
+        heartsUI[currentHealth -1].SetActive(true);//activamos el corazón correspondiente sabiendo al vida actual que tiene el player
+    }
     void HeartsUI()
     {
         if (currentHealth == maxHealth) return;
